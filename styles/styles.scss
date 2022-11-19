@@ -9,8 +9,11 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
+// .videography {
+//     z-index: 3;
+// }
 
-//hero
+
 .hero {
     background-color: $light;
 
@@ -80,7 +83,7 @@
             padding: 14px 32px;
             border: none;
             border-radius: 4px;
-            // color: $light;
+            color: $light;
             margin-top: 2rem;
             cursor: pointer;
             position: relative;
@@ -91,8 +94,10 @@
         &--btn a {
             position: relative;
             z-index: 2;
-            color: $light;
+            // color: $light;
             text-decoration: none;
+            transition: all 0.5s ease-in-out;
+
         }
 
         &--btn:after {
@@ -102,6 +107,7 @@
             left: 0;
             height: 100%;
             background: $lime;
+            // color: $dark;
             transition: all 0.5s ease-in-out;
             border-radius: 4px;
         }
